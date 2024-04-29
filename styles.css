@@ -1,5 +1,49 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    background-color: #121212;
+}
+
+main {
+    color: white;
+    height: 100vh;
+
+}
+
+nav {
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-top: , 5rem;
+    margin-top: 1rem;
+}
+
+.hero-text h2 {
+    front-size: 1, 4em;
+}
+
+.text-accent {
+    color: fuchsia
+}
+
+.text-primary {
+    color: blueviolet;
+}
+
+.hero img {
+    height: 100% max-width: 500px object-fit: contain border-radius: 15px min-width: 200px
 }
